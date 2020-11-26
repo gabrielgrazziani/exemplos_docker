@@ -1,0 +1,9 @@
+version: '3'
+services:
+  spring:
+    build:
+      dockerfile: Dockerfile
+      context: .
+    image: gabrielgrazziani/spring_docker
+    ports:
+      - "8888:8080"
